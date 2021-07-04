@@ -6,16 +6,16 @@ body {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.half-width h1 {
+h1 {
     font-size: 50px;
 }
-.half-width .developer-name {
+.developer-name {
     color: orange;
 }
-.half-width p {
+p {
     color: dimgray;
 }
-.half-width .hire-btn {
+.link-btn {
     text-decoration: none;
     color: white;
     padding: 10px 40px;
@@ -27,6 +27,7 @@ body {
 }
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width {
     width: 50%;
@@ -35,5 +36,11 @@ section {
 .half-width img {
     width: 100%;
 }
-
-
+h2 {
+    font-size: 40px;
+}
+.dream-big {
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}

@@ -9,7 +9,7 @@ body {
 h1 {
     font-size: 50px;
 }
-.developer-name {
+.orange-color {
     color: orange;
 }
 p {
@@ -25,9 +25,9 @@ p {
     text-transform: uppercase;
     font-weight: 700;
 }
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .half-width {
     width: 50%;
@@ -43,4 +43,28 @@ h2 {
     background: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item {
+    width: 46%;
+    margin: 0 2%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px 20px 40px 20px;
+}
+#full-developer-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#Baby-developer-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
